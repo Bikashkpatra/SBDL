@@ -1,0 +1,318 @@
+2025-10-29 20:39:08 INFO  Server:384 - jetty-11.0.24; built: 2024-08-26T18:11:22.448Z; git: 5dfc59a691b748796f922208956bd1f2794bcd16; jvm 17.0.16+8
+2025-10-29 20:39:08 INFO  Server:439 - Started Server@1aca843c{STARTING}[11.0.24,sto=30000] @3014ms
+2025-10-29 20:39:08 INFO  AbstractConnector:376 - Started ServerConnector@7f83b57b{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2025-10-29 20:39:08 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@5b880ddd{/,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:1123 - Stopped o.s.j.s.ServletContextHandler@5b880ddd{/,null,STOPPED,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6fca2be5{/jobs,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@3ba50281{/jobs/json,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@4abeadbb{/jobs/job,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@281d2c52{/jobs/job/json,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@2ebc6cb3{/stages,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@2a3ea0a9{/stages/json,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@2b7df1ac{/stages/stage,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@52e2eac4{/stages/stage/json,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@36d388ed{/stages/pool,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@48bf8bee{/stages/pool/json,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@2f172aca{/stages/taskThreadDump,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6155eee8{/stages/taskThreadDump/json,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@3817c816{/storage,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@2cdaa34e{/storage/json,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@3d1fcf3{/storage/rdd,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@29978a8c{/storage/rdd/json,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@26377a6e{/environment,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@17f3d23d{/environment/json,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@49293978{/executors,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6d921ac9{/executors/json,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@3f9eca7e{/executors/threadDump,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6c8204a6{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@7c937286{/executors/heapHistogram,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@49ba8360{/executors/heapHistogram/json,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@275fd8e7{/static,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@1b37f3b0{/,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@257ac17f{/api,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@286b1cbc{/metrics,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@2fdc4de6{/jobs/job/kill,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@733da062{/stages/stage/kill,null,AVAILABLE,@Spark}
+2025-10-29 20:39:09 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@5be8c54c{/metrics/json,null,AVAILABLE,@Spark}
+2025-10-29 20:39:11 INFO  sbdl:244 - Finished creating Spark Session
+2025-10-29 20:39:11 INFO  Server:479 - Stopped Server@1aca843c{STOPPING}[11.0.24,sto=30000]
+2025-10-29 20:39:11 INFO  Server:135 - Shutdown Server@1aca843c{STOPPING}[11.0.24,sto=30000]
+2025-10-29 20:39:11 INFO  AbstractConnector:431 - Stopped Spark@7f83b57b{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2025-10-29 20:42:52 INFO  Server:384 - jetty-11.0.24; built: 2024-08-26T18:11:22.448Z; git: 5dfc59a691b748796f922208956bd1f2794bcd16; jvm 17.0.16+8
+2025-10-29 20:42:52 INFO  Server:439 - Started Server@16e07b53{STARTING}[11.0.24,sto=30000] @3085ms
+2025-10-29 20:42:52 INFO  AbstractConnector:376 - Started ServerConnector@6ef956ee{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2025-10-29 20:42:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@737a8892{/,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:1123 - Stopped o.s.j.s.ServletContextHandler@737a8892{/,null,STOPPED,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@24a97320{/jobs,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@5dc89971{/jobs/json,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@3bf55dc0{/jobs/job,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@2ece695e{/jobs/job/json,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@67ac3700{/stages,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@301a7556{/stages/json,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@71376f4f{/stages/stage,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@9b5fd48{/stages/stage/json,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@40fa3b76{/stages/pool,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@4cab1097{/stages/pool/json,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@3c04b050{/stages/taskThreadDump,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@55e93c52{/stages/taskThreadDump/json,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@413710d6{/storage,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@93c6e77{/storage/json,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6d2c8cbc{/storage/rdd,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@4c3045ed{/storage/rdd/json,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@755e5741{/environment,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@33568dbc{/environment/json,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@3bccbca2{/executors,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@7c31b3f7{/executors/json,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@66ac5895{/executors/threadDump,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@3b87275{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@61bda307{/executors/heapHistogram,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6db30380{/executors/heapHistogram/json,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@d9938b3{/static,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@667d3202{/,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@19a7a01e{/api,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6147147e{/metrics,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@1e72b2bb{/jobs/job/kill,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@142ad8a2{/stages/stage/kill,null,AVAILABLE,@Spark}
+2025-10-29 20:42:53 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6feb8115{/metrics/json,null,AVAILABLE,@Spark}
+2025-10-29 20:42:55 INFO  sbdl:244 - Finished creating Spark Session
+2025-10-29 20:42:55 INFO  Server:479 - Stopped Server@16e07b53{STOPPING}[11.0.24,sto=30000]
+2025-10-29 20:42:55 INFO  Server:135 - Shutdown Server@16e07b53{STOPPING}[11.0.24,sto=30000]
+2025-10-29 20:42:55 INFO  AbstractConnector:431 - Stopped Spark@6ef956ee{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2025-10-29 20:46:32 INFO  Server:384 - jetty-11.0.24; built: 2024-08-26T18:11:22.448Z; git: 5dfc59a691b748796f922208956bd1f2794bcd16; jvm 17.0.16+8
+2025-10-29 20:46:32 INFO  Server:439 - Started Server@7aebad4{STARTING}[11.0.24,sto=30000] @3086ms
+2025-10-29 20:46:32 INFO  AbstractConnector:376 - Started ServerConnector@57b95f42{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2025-10-29 20:46:32 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6b311485{/,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:1123 - Stopped o.s.j.s.ServletContextHandler@6b311485{/,null,STOPPED,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@20ebebe5{/jobs,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@744d181d{/jobs/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@14e9f914{/jobs/job,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@30a7d575{/jobs/job/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@2746d6e8{/stages,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@2b47497a{/stages/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@2cc2ffa0{/stages/stage,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@51a2cb98{/stages/stage/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6c2d28cc{/stages/pool,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@473d2a62{/stages/pool/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@5a7162c6{/stages/taskThreadDump,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@526c1ef3{/stages/taskThreadDump/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@26353739{/storage,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@a079904{/storage/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6a8a629a{/storage/rdd,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@100a8b6f{/storage/rdd/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@466b176{/environment,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@79f1a6cf{/environment/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@798a7040{/executors,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@10df6ae9{/executors/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@467e0f09{/executors/threadDump,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@2a8de512{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@13bb5674{/executors/heapHistogram,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6539366c{/executors/heapHistogram/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@51929b03{/static,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@79a6a85{/,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@13abf82{/api,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@54b7f28d{/metrics,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@540cf524{/jobs/job/kill,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@4a8e5a3f{/stages/stage/kill,null,AVAILABLE,@Spark}
+2025-10-29 20:46:33 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@5d712618{/metrics/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:35 INFO  sbdl:244 - Finished creating Spark Session
+2025-10-29 20:46:35 INFO  Server:479 - Stopped Server@7aebad4{STOPPING}[11.0.24,sto=30000]
+2025-10-29 20:46:35 INFO  Server:135 - Shutdown Server@7aebad4{STOPPING}[11.0.24,sto=30000]
+2025-10-29 20:46:35 INFO  AbstractConnector:431 - Stopped Spark@57b95f42{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2025-10-29 20:46:54 INFO  Server:384 - jetty-11.0.24; built: 2024-08-26T18:11:22.448Z; git: 5dfc59a691b748796f922208956bd1f2794bcd16; jvm 17.0.16+8
+2025-10-29 20:46:54 INFO  Server:439 - Started Server@7aebad4{STARTING}[11.0.24,sto=30000] @3067ms
+2025-10-29 20:46:54 INFO  AbstractConnector:376 - Started ServerConnector@5c9daab2{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6b311485{/,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:1123 - Stopped o.s.j.s.ServletContextHandler@6b311485{/,null,STOPPED,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@42d5dfae{/jobs,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@35d9105{/jobs/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@8f885e6{/jobs/job,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@40384735{/jobs/job/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@7cbcb132{/stages,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@25453cda{/stages/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@56fa1ee4{/stages/stage,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@20799797{/stages/stage/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@5729e276{/stages/pool,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@4cff1{/stages/pool/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@5f1f4aa1{/stages/taskThreadDump,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@7cac553e{/stages/taskThreadDump/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@77831c5d{/storage,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@38ae9364{/storage/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@65891ded{/storage/rdd,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@2673f91c{/storage/rdd/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@3d418af6{/environment,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@3d6413ff{/environment/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@4856853d{/executors,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@64ec7f65{/executors/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6cdc6aa2{/executors/threadDump,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@416e47f4{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@250b139b{/executors/heapHistogram,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@20d9f210{/executors/heapHistogram/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@18d3769b{/static,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@3b44cd53{/,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@13ac10af{/api,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@7cb3a8e2{/metrics,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@3599bfcd{/jobs/job/kill,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@3fc446b2{/stages/stage/kill,null,AVAILABLE,@Spark}
+2025-10-29 20:46:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@c4afad4{/metrics/json,null,AVAILABLE,@Spark}
+2025-10-29 20:46:56 INFO  sbdl:244 - Finished creating Spark Session
+2025-10-29 20:46:57 INFO  Server:479 - Stopped Server@7aebad4{STOPPING}[11.0.24,sto=30000]
+2025-10-29 20:46:57 INFO  Server:135 - Shutdown Server@7aebad4{STOPPING}[11.0.24,sto=30000]
+2025-10-29 20:46:57 INFO  AbstractConnector:431 - Stopped Spark@5c9daab2{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2025-10-29 20:50:54 INFO  Server:384 - jetty-11.0.24; built: 2024-08-26T18:11:22.448Z; git: 5dfc59a691b748796f922208956bd1f2794bcd16; jvm 17.0.16+8
+2025-10-29 20:50:54 INFO  Server:439 - Started Server@7aebad4{STARTING}[11.0.24,sto=30000] @3166ms
+2025-10-29 20:50:54 INFO  AbstractConnector:376 - Started ServerConnector@1051ffaf{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6b311485{/,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:1123 - Stopped o.s.j.s.ServletContextHandler@6b311485{/,null,STOPPED,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@20ebebe5{/jobs,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@744d181d{/jobs/json,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@14e9f914{/jobs/job,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@30a7d575{/jobs/job/json,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@2746d6e8{/stages,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@2b47497a{/stages/json,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@2cc2ffa0{/stages/stage,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@51a2cb98{/stages/stage/json,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6c2d28cc{/stages/pool,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@473d2a62{/stages/pool/json,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@5a7162c6{/stages/taskThreadDump,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@526c1ef3{/stages/taskThreadDump/json,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@26353739{/storage,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@a079904{/storage/json,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6a8a629a{/storage/rdd,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@100a8b6f{/storage/rdd/json,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@466b176{/environment,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@79f1a6cf{/environment/json,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@798a7040{/executors,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@10df6ae9{/executors/json,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@467e0f09{/executors/threadDump,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@2a8de512{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@13bb5674{/executors/heapHistogram,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6539366c{/executors/heapHistogram/json,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@51929b03{/static,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@79a6a85{/,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@13abf82{/api,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@54b7f28d{/metrics,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@540cf524{/jobs/job/kill,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@4a8e5a3f{/stages/stage/kill,null,AVAILABLE,@Spark}
+2025-10-29 20:50:54 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@5d712618{/metrics/json,null,AVAILABLE,@Spark}
+2025-10-29 20:50:57 INFO  sbdl:244 - Finished creating Spark Session
+2025-10-29 20:50:57 INFO  Server:479 - Stopped Server@7aebad4{STOPPING}[11.0.24,sto=30000]
+2025-10-29 20:50:57 INFO  Server:135 - Shutdown Server@7aebad4{STOPPING}[11.0.24,sto=30000]
+2025-10-29 20:50:57 INFO  AbstractConnector:431 - Stopped Spark@1051ffaf{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2025-10-29 20:51:52 INFO  Server:384 - jetty-11.0.24; built: 2024-08-26T18:11:22.448Z; git: 5dfc59a691b748796f922208956bd1f2794bcd16; jvm 17.0.16+8
+2025-10-29 20:51:52 INFO  Server:439 - Started Server@787019de{STARTING}[11.0.24,sto=30000] @3158ms
+2025-10-29 20:51:52 INFO  AbstractConnector:376 - Started ServerConnector@3252fbaa{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@1b12c1bb{/,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:1123 - Stopped o.s.j.s.ServletContextHandler@1b12c1bb{/,null,STOPPED,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@35d9105{/jobs,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@18898195{/jobs/json,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@40384735{/jobs/job,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@7cbcb132{/jobs/job/json,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@25453cda{/stages,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@326b5801{/stages/json,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@20799797{/stages/stage,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@5729e276{/stages/stage/json,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@4cff1{/stages/pool,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@5f1f4aa1{/stages/pool/json,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@7cac553e{/stages/taskThreadDump,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@77831c5d{/stages/taskThreadDump/json,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@38ae9364{/storage,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@65891ded{/storage/json,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@2673f91c{/storage/rdd,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@3d418af6{/storage/rdd/json,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@3d6413ff{/environment,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@4856853d{/environment/json,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@64ec7f65{/executors,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6cdc6aa2{/executors/json,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@416e47f4{/executors/threadDump,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@250b139b{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@20d9f210{/executors/heapHistogram,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@18d3769b{/executors/heapHistogram/json,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@3eb4ba53{/static,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@13ac10af{/,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@1c89c4a3{/api,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@1cdd3c41{/metrics,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@3fc446b2{/jobs/job/kill,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@3211f374{/stages/stage/kill,null,AVAILABLE,@Spark}
+2025-10-29 20:51:52 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@76a333a4{/metrics/json,null,AVAILABLE,@Spark}
+2025-10-29 20:51:55 INFO  Server:479 - Stopped Server@787019de{STOPPING}[11.0.24,sto=30000]
+2025-10-29 20:51:55 INFO  Server:135 - Shutdown Server@787019de{STOPPING}[11.0.24,sto=30000]
+2025-10-29 20:51:55 INFO  AbstractConnector:431 - Stopped Spark@3252fbaa{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2025-10-29 20:52:34 INFO  Server:384 - jetty-11.0.24; built: 2024-08-26T18:11:22.448Z; git: 5dfc59a691b748796f922208956bd1f2794bcd16; jvm 17.0.16+8
+2025-10-29 20:52:34 INFO  Server:439 - Started Server@20fce44{STARTING}[11.0.24,sto=30000] @2942ms
+2025-10-29 20:52:34 INFO  AbstractConnector:376 - Started ServerConnector@1051ffaf{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2025-10-29 20:52:34 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@57ddee02{/,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:1123 - Stopped o.s.j.s.ServletContextHandler@57ddee02{/,null,STOPPED,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@15995e37{/jobs,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6e4ae86c{/jobs/json,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@e6e6f6{/jobs/job,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@632087f8{/jobs/job/json,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@5e9be69b{/stages,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@361b7c75{/stages/json,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6501a9ba{/stages/stage,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@21c8e669{/stages/stage/json,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@24256b22{/stages/pool,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@11e890b4{/stages/pool/json,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@58e7fa1c{/stages/taskThreadDump,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@542fb698{/stages/taskThreadDump/json,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@43a6e3fd{/storage,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@54e44c68{/storage/json,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@321eabdf{/storage/rdd,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@c00d0c4{/storage/rdd/json,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@15050d62{/environment,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6f2f9798{/environment/json,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@10992f71{/executors,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@7928824d{/executors/json,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@5f6b2e22{/executors/threadDump,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@4a327eaa{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@49a258b2{/executors/heapHistogram,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@4ad4e0e8{/executors/heapHistogram/json,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@2d40f1e3{/static,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@3ea9aba8{/,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@571f3c71{/api,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@1e3f66f9{/metrics,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@11f1f295{/jobs/job/kill,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@612ad8a6{/stages/stage/kill,null,AVAILABLE,@Spark}
+2025-10-29 20:52:35 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@c826906{/metrics/json,null,AVAILABLE,@Spark}
+2025-10-29 20:52:37 INFO  Server:479 - Stopped Server@20fce44{STOPPING}[11.0.24,sto=30000]
+2025-10-29 20:52:37 INFO  Server:135 - Shutdown Server@20fce44{STOPPING}[11.0.24,sto=30000]
+2025-10-29 20:52:37 INFO  AbstractConnector:431 - Stopped Spark@1051ffaf{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2025-10-29 20:52:59 INFO  Server:384 - jetty-11.0.24; built: 2024-08-26T18:11:22.448Z; git: 5dfc59a691b748796f922208956bd1f2794bcd16; jvm 17.0.16+8
+2025-10-29 20:52:59 INFO  Server:439 - Started Server@7aebad4{STARTING}[11.0.24,sto=30000] @2942ms
+2025-10-29 20:52:59 INFO  AbstractConnector:376 - Started ServerConnector@57b95f42{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6b311485{/,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:1123 - Stopped o.s.j.s.ServletContextHandler@6b311485{/,null,STOPPED,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@20ebebe5{/jobs,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@744d181d{/jobs/json,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@14e9f914{/jobs/job,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@30a7d575{/jobs/job/json,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@2746d6e8{/stages,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@2b47497a{/stages/json,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@2cc2ffa0{/stages/stage,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@51a2cb98{/stages/stage/json,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6c2d28cc{/stages/pool,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@473d2a62{/stages/pool/json,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@5a7162c6{/stages/taskThreadDump,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@526c1ef3{/stages/taskThreadDump/json,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@26353739{/storage,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@a079904{/storage/json,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6a8a629a{/storage/rdd,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@100a8b6f{/storage/rdd/json,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@466b176{/environment,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@79f1a6cf{/environment/json,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@798a7040{/executors,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@10df6ae9{/executors/json,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@467e0f09{/executors/threadDump,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@2a8de512{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@13bb5674{/executors/heapHistogram,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@6539366c{/executors/heapHistogram/json,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@51929b03{/static,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@79a6a85{/,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@13abf82{/api,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@54b7f28d{/metrics,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@540cf524{/jobs/job/kill,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@4a8e5a3f{/stages/stage/kill,null,AVAILABLE,@Spark}
+2025-10-29 20:52:59 INFO  ContextHandler:907 - Started o.s.j.s.ServletContextHandler@5d712618{/metrics/json,null,AVAILABLE,@Spark}
+2025-10-29 20:53:02 INFO  sbdl:244 - Finished creating Spark Session
+2025-10-29 20:53:02 INFO  Server:479 - Stopped Server@7aebad4{STOPPING}[11.0.24,sto=30000]
+2025-10-29 20:53:02 INFO  Server:135 - Shutdown Server@7aebad4{STOPPING}[11.0.24,sto=30000]
+2025-10-29 20:53:02 INFO  AbstractConnector:431 - Stopped Spark@57b95f42{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
